@@ -6,7 +6,7 @@
 1 - Instalar Python superior a la version 3.10
     Recomendamos la ultima que es 3.13.7 localizable en el sitio:
 
-    https://www.python.org/downloads/
+    <code>https://www.python.org/downloads/</code>
 
     Verifique que sea una version para Windows amd64 
 
@@ -16,7 +16,7 @@
     para enviar mensajes mediante Telegram. Para instalar la librería requests, puedes usar pip:
     En la consola de windows tecleas:
 
-    pip install requests
+    <code>pip install requests</code>
 
     y esperas a que termine la instalacion. Si esta utilizando cortafuegos en su PC debe
     permitir que la consola de windows y pip accedan a Internet para descargar la librería.
@@ -258,4 +258,5 @@ Al terminar, creame una lista sencilla con ejemplos de las llamadas a los endpoi
 Santiago Orellana <br>
 Email: <a href="mailto:codechago@gmail.com?Subject=Quiero%20un%20bot%20de%20trading">codechago@gmail.com</a><br>
 Whatsapp: <a href="https://wa.me/5354635944?text=Quiero contratar tus servicios">+5354635944</a>
+
 
