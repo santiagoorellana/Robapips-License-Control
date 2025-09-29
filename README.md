@@ -77,11 +77,11 @@ La password de administradores se declara en un fichero JSON local llamado "conf
 En este fichero tambien se guarda el ID de Telegram del usuario administrador y el Token del Bot de Telegram que se utiliza para enviar los datos.
 La estructura del fichero de "config.json" es la siguiente:
 
-{
+<code>{
     "admin_password": "admin123",
     "telegram_bot_token": "TU_BOT_TOKEN_AQUI",
     "telegram_chat_id": "TU_CHAT_ID_AQUI"
-}
+}</code>
 
 Sistema de base de datos mediante ficheros locales JSON:
 Existe una carpeta local donde se guardan los ficheros del sistema de base de datos.
@@ -258,3 +258,4 @@ Al terminar, creame una lista sencilla con ejemplos de las llamadas a los endpoi
 Santiago Orellana <br>
 Email: <a href="mailto:codechago@gmail.com?Subject=Quiero%20un%20bot%20de%20trading">codechago@gmail.com</a><br>
 Whatsapp: <a href="https://wa.me/5354635944?text=Quiero contratar tus servicios">+5354635944</a>
+
