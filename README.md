@@ -6,9 +6,9 @@
 1 - Instalar Python superior a la version 3.10
     Recomendamos la ultima que es 3.13.7 localizable en el sitio:
 
-    <code>https://www.python.org/downloads/</code>
+    https://www.python.org/downloads/
 
-    Verifique que sea una version para Windows amd64 
+Verifique que sea una version para Windows amd64 
 
 
 2 - Instalar las librerias necesarias
@@ -258,5 +258,6 @@ Al terminar, creame una lista sencilla con ejemplos de las llamadas a los endpoi
 Santiago Orellana <br>
 Email: <a href="mailto:codechago@gmail.com?Subject=Quiero%20un%20bot%20de%20trading">codechago@gmail.com</a><br>
 Whatsapp: <a href="https://wa.me/5354635944?text=Quiero contratar tus servicios">+5354635944</a>
+
 
 
