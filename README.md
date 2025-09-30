@@ -14,7 +14,7 @@
     De todas las librerias que se utilizan, solo debes instalar "requests" que se utiliza 
     para enviar mensajes mediante Telegram. Para instalar la librería requests, puedes usar pip y esperas a que termine la instalacion. Si esta utilizando cortafuegos en su PC debe permitir que la consola de windows y pip accedan a Internet para descargar la librería. En la consola de windows tecleas:
 
-    <code>pip install requests</code>
+    pip install requests
 
 3 - Descomprimir el ZIP que contiene los ficheros del sistema. 
     Cualquier localizacion debería funcionar, pero para hacerlo mas sencillo recomendamos la raíz C:/
@@ -30,16 +30,9 @@
     Debebe abrirse la pagina web del sistema y ya podrá explorar las funcionalidades.
 
 
-6 - Para verificar que el EndPoint del Bot este funcionando correctamente solo debe
-    abrir una nueva pagina en el navegador y colocar la URL:
+6 - Para verificar que el EndPoint del Bot este funcionando correctamente solo debe abrir una nueva pagina en el navegador y colocar la siguiente URL. Debe responde False porque la cuenta 123456789 no esta agregada a ningun usuario activo. Luego puede probar con un numero de cuenta que si este agregado en un usuario activo y debe devolver True.
 
     http://localhost:8000/api/check_account?account_id=123456789
-
-    En este caso debe responde False porque la cuenta 123456789 no esta agregada a 
-    ningun usuario activo. Luego puede probar con un numero de cuenta que si este 
-    agregado en un usuario activo y debe devolver True.
-
-    
 
 
 <h1>PROCESO DE CREACION</h1>
@@ -252,6 +245,7 @@ Al terminar, creame una lista sencilla con ejemplos de las llamadas a los endpoi
 Santiago Orellana <br>
 Email: <a href="mailto:codechago@gmail.com?Subject=Quiero%20un%20bot%20de%20trading">codechago@gmail.com</a><br>
 Whatsapp: <a href="https://wa.me/5354635944?text=Quiero contratar tus servicios">+5354635944</a>
+
 
 
 
