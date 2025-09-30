@@ -1,5 +1,5 @@
 <h1>INICIO</h1>
-Versión pública de la propuesta de sistema de control de licencias para la empresa Robapips. Permite controlar la ejecucion de los bots de trading de los usuarios, los cuales se ejecutan en la plataforma Metatrader y consultan el EndPoint del sistema para ver si ese bot en específico puede ejecutarse. Es un sistema sencillo pero facilmente escalable y se le puede mejorar la seguridad agregandole algunas capas de encriptacion. Esta version pública fue creada con ayuda de la inteligencia artificial DeepSeek mediante ajustes consecutivos y se empleó como propuesta tecnica para la empresa. El código incluye los principales prompts que se utilizaron durante el proceso de creación.
+Versión pública de la propuesta de sistema de control de licencias para la empresa Robapips. Permite controlar la ejecucion de los bots de trading de los usuarios, los cuales se ejecutan en la plataforma Metatrader y consultan el EndPoint del sistema para ver si ese bot en específico puede ejecutarse. Es un sistema sencillo pero facilmente escalable y se le puede mejorar la seguridad agregandole algunas capas de encriptacion. Esta version pública fue creada con ayuda de la inteligencia artificial DeepSeek mediante ajustes consecutivos y se empleó como propuesta tecnica para la empresa. El código incluye los principales prompts que se utilizaron durante el proceso de creación.<br>
 <img width="901" height="605" alt="init" src="https://github.com/user-attachments/assets/62411720-2e98-425b-913f-298f50b2f660" />
 
 <h1>INSTALACION</h1>
@@ -247,6 +247,7 @@ Al terminar, creame una lista sencilla con ejemplos de las llamadas a los endpoi
 Santiago Orellana <br>
 Email: <a href="mailto:codechago@gmail.com?Subject=Quiero%20un%20bot%20de%20trading">codechago@gmail.com</a><br>
 Whatsapp: <a href="https://wa.me/5354635944?text=Quiero contratar tus servicios">+5354635944</a>
+
 
 
 
