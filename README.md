@@ -97,7 +97,7 @@ Puedes cambiar lo que sea necesario, siempre y cuendo el sistema mantenga la fun
 
 <h3>ENDPOINTS DE LOS USUARIOS CLIENTES</h3>
 
-Caso de uso #1
+<b>Caso de uso #1</b>
 El cliente se registra por primera vez en la web insertando estos parámetros:
 - username (obligatorio)
 - email (obligatorio)
@@ -114,7 +114,7 @@ Al terminar el registro se envía un mensaje "NUEVO USUARIO" por Telegram al adm
 username, email, phone, telegram user alias
 
 
-Caso de uso #2
+<b>Caso de uso #2</b>
 El cliente se autentica para entrar a la cuenta y ver o modificar algo. 
 Inserta los parámetros:
 - username
@@ -245,6 +245,7 @@ Al terminar, creame una lista sencilla con ejemplos de las llamadas a los endpoi
 Santiago Orellana <br>
 Email: <a href="mailto:codechago@gmail.com?Subject=Quiero%20un%20bot%20de%20trading">codechago@gmail.com</a><br>
 Whatsapp: <a href="https://wa.me/5354635944?text=Quiero contratar tus servicios">+5354635944</a>
+
 
 
 
