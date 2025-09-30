@@ -114,7 +114,7 @@ Al terminar el registro se envía un mensaje "NUEVO USUARIO" por Telegram al adm
 username, email, phone, telegram user alias
 
 
-<b>Caso de uso #2</b>
+<b>Caso de uso #2</b><br>
 El cliente se autentica para entrar a la cuenta y ver o modificar algo. 
 Inserta los parámetros:
 - username
@@ -128,7 +128,7 @@ Importante, si la password es la password de administracion (esta se define en e
 Eso se maneja internamente en la lista de tokensa de usuarios, donde se marca el token como administrador para que este tenga derecho a ver y modificar todo.
 
 
-Caso de uso #3
+<b>Caso de uso #3</b><br>
 El cliente pide los datos del usuario para mostrar en la pagina. 
 Inserta los parámetros:
 - token de usuario
@@ -138,7 +138,7 @@ Si el token es administrador porque el usuario se autentico con password de admi
 Si el token no es administrador, entonces el "expiration_date" solo se muestra como readonly.
 
 
-Caso de uso #4
+<b>Caso de uso #4</b><br>
 El cliente estando autenticado, puede agregar las cuentas que va a usar. 
 Inserta los parámetros:
 - token de usuario
@@ -153,7 +153,7 @@ Al agregar una cuenta se envía un mensaje "USUARIO AGREGO CUENTA" por Telegram 
 - ID de la cuenta agregada
 
 
-Caso de uso #5
+<b>Caso de uso #5</b><br>
 El cliente estando autenticado, puede eliminar cuentas de la Lista de Identificadores de Cuentas. 
 Inserta los parámetros:
 - token de usuario
@@ -166,7 +166,7 @@ Al eliminar una cuenta se envía un mensaje "USUARIO ELIMINO CUENTA" por Telegra
 - ID de la cuenta eliminada
 
 
-Casos de uso #6, #7, #8, #9
+<b>Casos de uso #6, #7, #8, #9</b><br>
 El cliente estando autenticado, puede modificar datos de usuario como son username, email, phone, password, etc.
 Se deben crear los endpoints necesarios para cada una de estas modificaciones y no se deben aceptar vacios.
 los endpoints reciben los parámetros:
@@ -180,7 +180,7 @@ Al modificar una dato del usuario se envía un mensaje "MODIFICACION DE USUARIO"
 - nuevo valor
 
 
-Caso de uso #10
+<b>Caso de uso #10</b><br>
 El cliente estando autenticado, puede eliminar todas las cuentas de la Lista de Identificadores de Cuentas. 
 Inserta los parámetros:
 - token de usuario
@@ -192,7 +192,7 @@ Al eliminar una cuenta se envía un mensaje "USUARIO ELIMINO TODAS LAS CUENTAS" 
 
 
 
-Casos de uso #11
+<b>Casos de uso #11</b><br>
 El cliente estando autenticado como administrador, puede modificar el parametro "expiration_date".
 El endpoint recibe los parámetros:
 - token de usuario
@@ -207,7 +207,7 @@ Al modificar una dato del usuario se envía un mensaje "MODIFICACION DE EXPIRATI
 
 <h3>ENDPOINTS QUE UTILIZAN LOS BOTS</h3>
 
-Caso de uso #1
+<b>Caso de uso #1</b><br>
 Existe un EndPoint que permite consultar si una cuenta está agregada por un usuario autorizado. 
 Cada usuario tiene un parametro llamado "expiration_date" que es la fecha de expiracion del uso del BOT.
 Al crearse el usuario, este dato por defecto tiene la fecha 1ro de enero de 2000 la cual se considera expirada porque es menor que la fecha actual y por tanto es un usuario no autorizado.
@@ -245,6 +245,7 @@ Al terminar, creame una lista sencilla con ejemplos de las llamadas a los endpoi
 Santiago Orellana <br>
 Email: <a href="mailto:codechago@gmail.com?Subject=Quiero%20un%20bot%20de%20trading">codechago@gmail.com</a><br>
 Whatsapp: <a href="https://wa.me/5354635944?text=Quiero contratar tus servicios">+5354635944</a>
+
 
 
 
