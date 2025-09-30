@@ -1,4 +1,5 @@
-![RobapipsLicenseControl](https://user-images.githubusercontent.com/59070402/151720760-ca068bc2-9f86-48b3-beea-d260530d461c.png)
+
+<img width="981" height="685" alt="init" src="https://github.com/user-attachments/assets/62411720-2e98-425b-913f-298f50b2f660" />
 
 <h1>INSTALACION</h1>
 
@@ -245,6 +246,7 @@ Al terminar, creame una lista sencilla con ejemplos de las llamadas a los endpoi
 Santiago Orellana <br>
 Email: <a href="mailto:codechago@gmail.com?Subject=Quiero%20un%20bot%20de%20trading">codechago@gmail.com</a><br>
 Whatsapp: <a href="https://wa.me/5354635944?text=Quiero contratar tus servicios">+5354635944</a>
+
 
 
 
