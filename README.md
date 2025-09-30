@@ -38,7 +38,7 @@
 <h1>PROCESO DE CREACION</h1>
 
 
-*******  Ejemplo de PROMT para IA DeepSeek donde se explica el funcionamiento del sistema ********
+<h2>Ejemplo de PROMT para IA DeepSeek donde se explica el funcionamiento del sistema</h2>
 
 Debes hacer un sistema web para controlar el uso de un bot de trading para Metatrader. 
 De forma general, el sistema consiste en una web donde los usuarios se registran y un administrador les asigna un tiempo de uso del bot ("expiration_date"). 
@@ -95,7 +95,7 @@ Al final del panel hay un boton para guardar los datos editados.
 A continuacion te pongo los posibles endpoints que se deben implementar en el backend y que deben ser consultados desde el frontend.
 Puedes cambiar lo que sea necesario, siempre y cuendo el sistema mantenga la funcionalidad basica que se ha explicado.
 
-ENDPOINTS DE LOS USUARIOS CLIENTES
+<h3>ENDPOINTS DE LOS USUARIOS CLIENTES</h3>
 
 Caso de uso #1
 El cliente se registra por primera vez en la web insertando estos parámetros:
@@ -205,7 +205,7 @@ Al modificar una dato del usuario se envía un mensaje "MODIFICACION DE EXPIRATI
 
 
 
-ENDPOINTS QUE UTILIZAN LOS BOTS
+<h3>ENDPOINTS QUE UTILIZAN LOS BOTS</h3>
 
 Caso de uso #1
 Existe un EndPoint que permite consultar si una cuenta está agregada por un usuario autorizado. 
@@ -217,7 +217,7 @@ Devuelve True si la cuenta pertenece a un usuario activo y la fecha del sistema 
 Devuelve False si la cuenta no ha sido agregada por ningún usuario o si está agregada por un usuario inactivo o si la fecha del sistema es mayor o igual que la fecha "expiration_date" asignada al usuario.
 
 
-OTRAS ESPECIFICACIONES
+<h3>OTRAS ESPECIFICACIONES</h3>
 
 Asegurate de implementar el servidor de forma que sirva el archivo HTML cuando se acceda a la raíz (/).
 Cuando se acceda a http://localhost:8000, el servidor debería servir correctamente el archivo HTML y el frontend funcionar adecuadamente.
@@ -245,6 +245,7 @@ Al terminar, creame una lista sencilla con ejemplos de las llamadas a los endpoi
 Santiago Orellana <br>
 Email: <a href="mailto:codechago@gmail.com?Subject=Quiero%20un%20bot%20de%20trading">codechago@gmail.com</a><br>
 Whatsapp: <a href="https://wa.me/5354635944?text=Quiero contratar tus servicios">+5354635944</a>
+
 
 
 
