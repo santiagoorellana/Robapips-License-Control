@@ -245,8 +245,9 @@ Al terminar, creame una lista sencilla con ejemplos de las llamadas a los endpoi
 <H3>Si necesitas hacer un bot de trading con tu propia estrategia, hacer backtesting, analisis de datos de mercados, o necesitas acesoramiento sobre bots de trading y automatización en exchanges de criptomonedas... escríbeme!</H3>
 
 Santiago Orellana <br>
-Email: <a href="mailto:codechago@gmail.com?Subject=Quiero%20un%20bot%20de%20trading">codechago@gmail.com</a><br>
+Email: <a href="mailto:tecnochago@gmail.com?Subject=Quiero%20un%20bot%20de%20trading">tecnochago@gmail.com</a><br>
 Whatsapp: <a href="https://wa.me/5354635944?text=Quiero contratar tus servicios">+5354635944</a>
+
 
 
 
